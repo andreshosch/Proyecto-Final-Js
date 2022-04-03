@@ -1,0 +1,89 @@
+                            /*comienzo productos para la venta */
+                            
+                            .productos {
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-around;
+                                padding: 1%;
+                                background-color: $bg_cian;
+                                & div {
+                                    margin-top: 2%;
+                                    border-color: lightblue;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-around;
+                                    & img:hover {
+                                        opacity: 80%;
+                                    }
+                                }
+                                & h4 {
+                                    color: red;
+                                    font-weight: bold;
+                                    text-align: left;
+                                    text-align: center;
+                                    margin-top: 10%;
+                                }
+                                & .imgProducto {
+                                    margin-top: 7%;
+                                    width: 50%;
+                                    margin-left: 25%;
+                                    margin-bottom: 20%;
+                                }
+                                & .card {
+                                    display: inline;
+                                    width: 300px;
+                                    height: 500px;
+                                }
+                            }
+                            
+                            .btn-disminuir {
+                                background-color: lightblue;
+                                width: 30px;
+                                height: 25px;
+                                margin-left: 33%;
+                                margin-right: 1%;
+                                text-align: center;
+                            }
+                            
+                            .btn-aumentar {
+                                background-color: lightblue;
+                                width: 30px;
+                                height: 25px;
+                                margin-left: 1%;
+                                text-align: center;
+                            }
+                            
+                            .inputCantidad {
+                                width: 35px;
+                                height: 27px;
+                                text-align: center;
+                                margin-top: 5%;
+                                pointer-events: none;
+                            }
+                            
+                            .titulo {
+                                color: gray;
+                                text-align: center;
+                                margin-top: 1%;
+                            }
+                            
+                            .nombre {
+                                margin-top: 7%;
+                                text-align: center;
+                                font-size: 18px;
+                            }
+                            
+                            .precio {
+                                margin-top: 7%;
+                                font-size: 30px;
+                            }
+                            
+                            .btn-carrito {
+                                background-color: $bg_cielo;
+                                border-color: blue;
+                                color: black;
+                                width: 70%;
+                                margin-left: 16%;
+                                margin-top: 5%;
+                                text-align: center;
+                            }
