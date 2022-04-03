@@ -104,20 +104,22 @@
                                     }
                                     
                                     h4 {
-                                        color: cadetblue;
+                                        color: #5f9ea0;
                                         text-align: center;
                                     }
                                     
                                     .totalProductos {
                                         color: cadetblue;
                                         text-align: center;
+                                        font-weight: bold;
+                                        font-style: italic;
                                     }
                                     
                                     .btnLimpiar,
                                     .btnComprar {
                                         margin-top: 5%;
-                                        background-color: $bg_cielo;
-                                        border-color: blue;
+                                        background-color: cadetblue;
+                                        border-color: cadetblue;
                                         color: black;
                                         margin-left: 3%;
                                         margin-right: 3%;

@@ -442,16 +442,6 @@ function mostrarproductos(categoria) {
                     icon: "success",
                     button: "OK",
                 });
-                /*  const Toast = swal.mixin({
-                      toast: true,
-                      position: 'bottom-end',
-                      showConfirmButton: false,
-                      timer: 1500
-                  })
-                  Toast.fire({
-                      icon: 'success',
-                      title: 'Se Agrego al Carrito'
-                  })*/
                 cantidad1.value = 1;
             };
             divProductos.appendChild(imgProducto);
