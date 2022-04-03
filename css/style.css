@@ -885,8 +885,12 @@ body {
         margin: 0 auto;
         text-align: center; }
       .modal .modal-content .contenedorModal .btnEliminar {
-        width: 4%;
-        height: 4%; }
+        width: 30px;
+        height: 30px;
+        border: transparent;
+        background-image: url("../images/basura 1.png");
+        background-size: 100%;
+        background-color: transparent; }
 
 .close {
   background: #606061;
@@ -913,7 +917,7 @@ body {
 #numero_carrito {
   position: absolute;
   top: 15%;
-  left: 82%;
+  left: 81%;
   background: red;
   width: 20px;
   height: 20px;
@@ -947,3 +951,11 @@ h4 {
   width: 20%;
   display: inline-block;
   text-align: center; }
+
+@media screen and (max-width: 767px) {
+  #numero_carrito {
+    top: 52%;
+    position: absolute;
+    left: 73%;
+    width: 18px;
+    height: 18px; } }

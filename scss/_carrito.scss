@@ -1,123 +1,137 @@
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 2;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.4);
-        .modal-content {
-            width: 50%;
-            text-align: center;
-            margin: 10% auto;
-            padding: 5px 20px 13px 20px;
-            border-radius: 10px;
-            background: #fff;
-            background: -moz-linear-gradient(#fff, #999);
-            background: -webkit-linear-gradient(#fff, #999);
-            background: -o-linear-gradient(#fff, #999);
-            -webkit-transition: opacity 400ms ease-in;
-            -moz-transition: opacity 400ms ease-in;
-            transition: opacity 400ms ease-in;
-            & .contenedorModal {
-                text-align: center;
-                right: 0;
-                & .imagenCarro {
-                    width: 70px;
-                    height: 70px;
-                    margin-bottom: 2%;
-                    text-align: left;
-                    margin-right: 10%;
-                }
-                & .nombreCarro {
-                    display: inline-block;
-                    width: 33%;
-                    width: 40%;
-                    margin: 0 auto;
-                    font-size: 14px;
-                    text-align: center;
-                }
-                & .precioCarro {
-                    font-size: 14px;
-                    display: inline-block;
-                    width: 25%;
-                    margin: 0 auto;
-                    text-align: center;
-                }
-                & .btnEliminar {
-                    width: 4%;
-                    height: 4%;
-                }
-            }
-        }
-    }
-    
-    .close {
-        background: #606061;
-        color: #FFFFFF;
-        line-height: 25px;
-        position: absolute;
-        right: -12px;
-        text-align: center;
-        top: -10px;
-        width: 24px;
-        text-decoration: none;
-        font-weight: bold;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        border-radius: 12px;
-        -moz-box-shadow: 1px 1px 3px #000;
-        -webkit-box-shadow: 1px 1px 3px #000;
-        box-shadow: 1px 1px 3px #000;
-    }
-    
-    .close:hover,
-    .close:focus {
-        background-color: #00d9ff;
-    }
-    
-    #numero_carrito {
-        position: absolute;
-        top: 15%;
-        left: 82%;
-        background: red;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        padding: 2px;
-        text-decoration: none;
-    }
-    
-    h6 {
-        font-size: 10px;
-    }
-    
-    h4 {
-        color: cadetblue;
-        text-align: center;
-    }
-    
-    .totalProductos {
-        color: cadetblue;
-        text-align: center;
-    }
-    
-    .btnLimpiar,
-    .btnComprar {
-        margin-top: 5%;
-        background-color: $bg_cielo;
-        border-color: blue;
-        color: black;
-        margin-left: 3%;
-        margin-right: 3%;
-        width: 20%;
-        display: inline-block;
-        text-align: center;
-    }
+                                    .modal {
+                                        display: none;
+                                        position: fixed;
+                                        z-index: 2;
+                                        left: 0;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: auto;
+                                        background-color: rgb(0, 0, 0);
+                                        background-color: rgba(0, 0, 0, 0.4);
+                                        .modal-content {
+                                            width: 50%;
+                                            text-align: center;
+                                            margin: 10% auto;
+                                            padding: 5px 20px 13px 20px;
+                                            border-radius: 10px;
+                                            background: #fff;
+                                            background: -moz-linear-gradient(#fff, #999);
+                                            background: -webkit-linear-gradient(#fff, #999);
+                                            background: -o-linear-gradient(#fff, #999);
+                                            -webkit-transition: opacity 400ms ease-in;
+                                            -moz-transition: opacity 400ms ease-in;
+                                            transition: opacity 400ms ease-in;
+                                            & .contenedorModal {
+                                                text-align: center;
+                                                right: 0;
+                                                & .imagenCarro {
+                                                    width: 70px;
+                                                    height: 70px;
+                                                    margin-bottom: 2%;
+                                                    text-align: left;
+                                                    margin-right: 10%;
+                                                }
+                                                & .nombreCarro {
+                                                    display: inline-block;
+                                                    width: 33%;
+                                                    width: 40%;
+                                                    margin: 0 auto;
+                                                    font-size: 14px;
+                                                    text-align: center;
+                                                }
+                                                & .precioCarro {
+                                                    font-size: 14px;
+                                                    display: inline-block;
+                                                    width: 25%;
+                                                    margin: 0 auto;
+                                                    text-align: center;
+                                                }
+                                                & .btnEliminar {
+                                                    width: 30px;
+                                                    height: 30px;
+                                                    border: transparent;
+                                                    background-image: url("../images/basura 1.png");
+                                                    background-size: 100%;
+                                                    background-color: transparent;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    .close {
+                                        background: #606061;
+                                        color: #FFFFFF;
+                                        line-height: 25px;
+                                        position: absolute;
+                                        right: -12px;
+                                        text-align: center;
+                                        top: -10px;
+                                        width: 24px;
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                        -webkit-border-radius: 12px;
+                                        -moz-border-radius: 12px;
+                                        border-radius: 12px;
+                                        -moz-box-shadow: 1px 1px 3px #000;
+                                        -webkit-box-shadow: 1px 1px 3px #000;
+                                        box-shadow: 1px 1px 3px #000;
+                                    }
+                                    
+                                    .close:hover,
+                                    .close:focus {
+                                        background-color: #00d9ff;
+                                    }
+                                    
+                                    #numero_carrito {
+                                        position: absolute;
+                                        top: 15%;
+                                        left: 81%;
+                                        background: red;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        color: white;
+                                        padding: 2px;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    h6 {
+                                        font-size: 10px;
+                                    }
+                                    
+                                    h4 {
+                                        color: cadetblue;
+                                        text-align: center;
+                                    }
+                                    
+                                    .totalProductos {
+                                        color: cadetblue;
+                                        text-align: center;
+                                    }
+                                    
+                                    .btnLimpiar,
+                                    .btnComprar {
+                                        margin-top: 5%;
+                                        background-color: $bg_cielo;
+                                        border-color: blue;
+                                        color: black;
+                                        margin-left: 3%;
+                                        margin-right: 3%;
+                                        width: 20%;
+                                        display: inline-block;
+                                        text-align: center;
+                                    }
+                                    
+                                    @media screen and (max-width:767px) {
+                                        #numero_carrito {
+                                            top: 52%;
+                                            position: absolute;
+                                            left: 73%;
+                                            width: 18px;
+                                            height: 18px;
+                                        }
+                                    }

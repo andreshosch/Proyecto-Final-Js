@@ -381,6 +381,7 @@ function clima() {
             const clima = document.createElement('div');
             clima.classList.add("clima");
             const temperatura = document.createElement('h5');
+            temperatura.classList.add("temp")
             const imgtemp = document.createElement('img');
             imgtemp.classList.add("iconoClima");
             if ((window.location.pathname).indexOf("index.html") != -1) {
@@ -388,7 +389,7 @@ function clima() {
             } else {
                 imgtemp.src = "../images/iconos clima/" + icon + ".png";
             }
-            temperatura.textContent = `${temp} º`;
+            temperatura.textContent = `${temp}º`;
             clima.appendChild(temperatura);
             clima.appendChild(imgtemp);
             tempe.appendChild(clima);
@@ -568,8 +569,8 @@ function mostrarModal() {
         nombreCarro.textContent = `${items.Nombre}    x   ${items.cantidad} un`;
         const precioCarro = document.createElement("h5");
         precioCarro.classList.add("precioCarro");
-        precioCarro.textContent = "$ " + parseInt((items.cantidad).toFixed(2)) * parseFloat((items.Precio).toFixed(2));
-        const btnEliminar = document.createElement("img");
+        precioCarro.textContent = "$ " + (parseInt(items.cantidad) * ((items.Precio))).toFixed(2);
+        const btnEliminar = document.createElement("button");
         btnEliminar.classList.add("btnEliminar");
         if ((window.location.pathname).indexOf("index.html") != -1) {
             imagenCarro.src = "./images/" + items.img;
@@ -578,7 +579,6 @@ function mostrarModal() {
             imagenCarro.src = "../images/" + items.img;
             btnEliminar.src = "../images/basura 1.png";
         }
-
         btnEliminar.onclick = () => {
             borrarProductoModal(items.id);
         }
