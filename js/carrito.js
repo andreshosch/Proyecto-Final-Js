@@ -25,7 +25,7 @@ let productosStock = [{
         Titulo: "ORAL-B",
         Nombre: "Cepillo Dentales Oral B Pro Salud Ultrafino 2un",
         Precio: 208,
-        img: '../images/oral-b.png',
+        img: 'oral-b.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -34,7 +34,7 @@ let productosStock = [{
         Titulo: "PERPIEL",
         Nombre: "Crema Facial Perpiel Humectante Facial A x 80ml",
         Precio: 674.50,
-        img: '../images/perpiel.png',
+        img: 'perpiel.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -43,7 +43,7 @@ let productosStock = [{
         Titulo: "BAGOVIT",
         Nombre: "Emulsión Humectante Bagovit Reafirmante Efecto Tensor 200 ml",
         Precio: 650.40,
-        img: '../images/bagovit.png',
+        img: 'bagovit.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -52,7 +52,7 @@ let productosStock = [{
         Titulo: "BAGOVIT",
         Nombre: "Crema Corporal Bagovit A Ligth Hipoalergénica 50g",
         Precio: 440.40,
-        img: '../images/bagovit crema.png',
+        img: 'bagovit crema.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -61,7 +61,7 @@ let productosStock = [{
         Titulo: "BAGOVIT",
         Nombre: "Emulsión Corporal Hidratante Bagovit Efecto Luminoso 200ml",
         Precio: 726.00,
-        img: '../images/bagovit emulsion.png',
+        img: 'bagovit emulsion.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -70,7 +70,7 @@ let productosStock = [{
         Titulo: "DERMAGLOS",
         Nombre: "Protector Solar Dermaglos Fps 30 Emulsión Piel Sensible 250ml",
         Precio: 883.35,
-        img: '../images/dermaglos protector.png',
+        img: 'dermaglos protector.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -79,7 +79,7 @@ let productosStock = [{
         Titulo: "EVACOPA",
         Nombre: "Copa Menstrual Evacopa Hipoalergénica Uso Continuo",
         Precio: 965.25,
-        img: '../images/evacopa.png',
+        img: 'evacopa.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -88,7 +88,7 @@ let productosStock = [{
         Titulo: "CICATRICURE",
         Nombre: "Kit Rutina Cicatricure Agua Micelar + Beauty Care + Contorno",
         Precio: 2148.55,
-        img: '../images/cicatricure kit.png',
+        img: 'cicatricure kit.png',
         categoria: "cuidado",
         cantidad: "0"
     },
@@ -98,7 +98,7 @@ let productosStock = [{
         Titulo: "TRB PHARMA",
         Nombre: "Ultraflex Colágeno Hidrolizado Para Huesos y Articulaciones",
         Precio: 2475.00,
-        img: '../images/trb pharma.png',
+        img: 'trb pharma.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -106,7 +106,7 @@ let productosStock = [{
         Titulo: "NATURES BOUNTY",
         Nombre: "Natures Bounty Vitamina C x 100 Comprimidos",
         Precio: 1371.00,
-        img: '../images/nature bounty.png',
+        img: 'nature bounty.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -114,7 +114,7 @@ let productosStock = [{
         Titulo: "SIMPLE",
         Nombre: "Bagó Simple Vitalidad Minerales Vitaminas 28 Pastillas Goma",
         Precio: 523.50,
-        img: '../images/bago simple.png',
+        img: 'bago simple.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -122,7 +122,7 @@ let productosStock = [{
         Titulo: "MAKURA",
         Nombre: "Protector Bucal Makura Toka Junior (Hasta 10 Años) C/ Estuche",
         Precio: 900.00,
-        img: '../images/makura.png',
+        img: 'makura.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -130,7 +130,7 @@ let productosStock = [{
         Titulo: "BAGO ARCOR",
         Nombre: "Simple Calcio + Vitamina D Bagó Arcor 60 Pastillas",
         Precio: 1004.25,
-        img: '../images/bago arcor.png',
+        img: 'bago arcor.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -138,7 +138,7 @@ let productosStock = [{
         Titulo: "ENA",
         Nombre: "Suplemento Dietario Ena Colágeno Sabor Naranja 12g",
         Precio: 172.50,
-        img: '../images/ena.png',
+        img: 'ena.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -146,7 +146,7 @@ let productosStock = [{
         Titulo: "CENTRUM",
         Nombre: "Suplemento Vitamínico Centrum Hombre x 60 Comprimidos",
         Precio: 1478.25,
-        img: '../images/cemtrum.png',
+        img: 'cemtrum.png',
         categoria: "suplementos",
         cantidad: "0"
     }, {
@@ -154,7 +154,7 @@ let productosStock = [{
         Titulo: "REDOXON",
         Nombre: "Suplemento Vitamínico Redoxitos Plus 25 Pastillas Masticables",
         Precio: 454.40,
-        img: '../images/redoxon suplemento.png',
+        img: 'redoxon suplemento.png',
         categoria: "suplementos",
         cantidad: "0"
     },
@@ -163,7 +163,7 @@ let productosStock = [{
         Titulo: "AVENO",
         Nombre: "Shampoo Aveno Infantil cabello graso 250 ml",
         Precio: 491.25,
-        img: '../images/aveno shampoo.png',
+        img: 'aveno shampoo.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -171,7 +171,7 @@ let productosStock = [{
         Titulo: "BEPANTHEN BABY",
         Nombre: "Pomada Bepanthen Baby Hipoalergénica Protectora 30gr",
         Precio: 297.70,
-        img: '../images/bephanten.png',
+        img: 'bephanten.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -179,7 +179,7 @@ let productosStock = [{
         Titulo: "BUSHY",
         Nombre: "Bushi Pezonera Siliconada x 2 Unidades",
         Precio: 754.60,
-        img: '../images/bushi.png',
+        img: 'bushi.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -187,7 +187,7 @@ let productosStock = [{
         Titulo: "PAMPERS",
         Nombre: "Toallitas Húmedas Pampers Aroma Naturaleza 108 Unidades",
         Precio: 491.25,
-        img: '../images/pampers.png',
+        img: 'pampers.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -195,7 +195,7 @@ let productosStock = [{
         Titulo: "PAMPERS",
         Nombre: "Toallitas Húmedas Pampers Recién Nacidos 48 un",
         Precio: 414.00,
-        img: '../images/pampers toallitas.png',
+        img: 'pampers toallitas.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -203,7 +203,7 @@ let productosStock = [{
         Titulo: "SAN UP",
         Nombre: "Esterilizador Mamadera Para Microondas San Up Xb 9603",
         Precio: 2324.75,
-        img: '../images/san up.png',
+        img: 'san up.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -211,7 +211,7 @@ let productosStock = [{
         Titulo: "JOHNSON",
         Nombre: "Shampoo Johnson's Baby Ph Balanceado 400 ml",
         Precio: 479.00,
-        img: '../images/shampoo johnson.png',
+        img: 'shampoo johnson.png',
         categoria: "bebe",
         cantidad: "0"
     }, {
@@ -219,7 +219,7 @@ let productosStock = [{
         Titulo: "BABY INNOVATION",
         Nombre: "Chupetes Avent Classic I Love Mamá 6 18m 2un",
         Precio: 1275.30,
-        img: '../images/baby chupete.png',
+        img: 'baby chupete.png',
         categoria: "bebe",
         cantidad: "0"
     },
@@ -228,7 +228,7 @@ let productosStock = [{
         Titulo: "DERMAGLOS",
         Nombre: "Crema Hidratante de Noche Ultra Age + 30 Reparadora",
         Precio: 1903.30,
-        img: '../images/dermaglos hidratante.png',
+        img: 'dermaglos hidratante.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -236,7 +236,7 @@ let productosStock = [{
         Titulo: "DERMAGLOS",
         Nombre: "Combo Dermaglos Ultra Age + 30 Contorno Ojos + Hidratante Día",
         Precio: 5435.50,
-        img: '../images/dermaglos combo.png',
+        img: 'dermaglos combo.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -244,7 +244,7 @@ let productosStock = [{
         Titulo: "L'OREAL DERMO",
         Nombre: "Kit Loreal Revitalift Día + Ojo + Agua Micelar Garnier",
         Precio: 2589.30,
-        img: '../images/loreal dermo.png',
+        img: 'loreal dermo.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -252,7 +252,7 @@ let productosStock = [{
         Titulo: "DERMAGLOS",
         Nombre: "Rutina Piel Seca Dermaglos Lociones Rostro",
         Precio: 4837.70,
-        img: '../images/dermaglos rutina.png',
+        img: 'dermaglos rutina.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -260,7 +260,7 @@ let productosStock = [{
         Titulo: "DERMAGLOS",
         Nombre: "Crema Hidratante Dermaglos De Día Piel Normal 70gr",
         Precio: 1152.20,
-        img: '../images/dermaglos piel normal.png',
+        img: 'dermaglos piel normal.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -268,7 +268,7 @@ let productosStock = [{
         id: 30,
         Nombre: "Asepxia Mascarilla Balance Efecto Burbujas x 1 Unidad",
         Precio: 295.00,
-        img: '../images/asepxia mascarilla.png',
+        img: 'asepxia mascarilla.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     }, {
@@ -276,7 +276,7 @@ let productosStock = [{
         Titulo: "ACF",
         Nombre: "Acf Máscara Facial Amazing Black Mask",
         Precio: 280.00,
-        img: '../images/acf mascara.png',
+        img: 'acf mascara.png',
         categoria: "dermocosmetica",
         cantidad: "0"
     },
@@ -285,7 +285,7 @@ let productosStock = [{
         Titulo: "NIVEA",
         Nombre: "Crema Facial Nivea Q10 Plus C Día Fps 15 Anti Age Energ 50ml",
         Precio: 839.00,
-        img: '../images/nivea facial.png',
+        img: 'nivea facial.png',
         categoria: "dermocosmetica",
         cantidad: "0"
 
@@ -295,7 +295,7 @@ let productosStock = [{
         Titulo: "TOMMY HILFIGER",
         Nombre: "Combo Tommy Hilfiger Cologne Men Ed5 50 ml + Body Wash",
         Precio: 8767.52,
-        img: '../images/tommy hilfiger combo.png',
+        img: 'tommy hilfiger combo.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -305,7 +305,7 @@ let productosStock = [{
         Titulo: "CACHAREL",
         Nombre: "Perfume Importado Mujer Cacharel Yes I am Pink Edp",
         Precio: 4992.00,
-        img: '../images/cacharel perfume.png',
+        img: 'cacharel perfume.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -314,7 +314,7 @@ let productosStock = [{
         Titulo: "PEPE JEANS",
         Nombre: "Perfume Pepe Jeans Celebrate For Him Edp 100Ml",
         Precio: 4392.00,
-        img: '../images/pepe jeans.png',
+        img: 'pepe jeans.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -323,7 +323,7 @@ let productosStock = [{
         Titulo: "DKNY",
         Nombre: "Dkny Be Delicius Edp concentracion de 30ml",
         Precio: 9832.00,
-        img: '../images/dkny.png',
+        img: 'dkny.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -332,7 +332,7 @@ let productosStock = [{
         Titulo: "TOMMY HILFIGER",
         Nombre: "Set Perfume Tommy Impact 100 ml + Face Moisturizer + Mini 4ml",
         Precio: 11592.00,
-        img: '../images/tommy hilfiger set.png',
+        img: 'tommy hilfiger set.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -341,7 +341,7 @@ let productosStock = [{
         Titulo: "PEPE JEANS",
         Nombre: "Perfume Pepe Jeans Celebrate For Her Edp 80ml",
         Precio: 3987.00,
-        img: '../images/pepe jeans perfume.png',
+        img: 'pepe jeans perfume.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -350,7 +350,7 @@ let productosStock = [{
         Titulo: "TOMMY HILFIGER",
         Nombre: "Set Perfume Tommy Impact 50 ml + Hair&Body Wash 100ml",
         Precio: 9752.00,
-        img: '../images/tommy hilfiger impact.png',
+        img: 'tommy hilfiger impact.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -359,7 +359,7 @@ let productosStock = [{
         Titulo: "CACHAREL",
         Nombre: "Cacharel Anais L'original Edt Presentacion 100ml",
         Precio: 7920.00,
-        img: '../images/cacharel anais.png',
+        img: 'cacharel anais.png',
         categoria: "perfume",
         cantidad: "0"
     },
@@ -369,6 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
     bolita();
     clima();
 });
+
 
 // FUNCION FETCH CLIMA SANTA FE - ARGENTINA
 function clima() {
@@ -382,7 +383,11 @@ function clima() {
             const temperatura = document.createElement('h5');
             const imgtemp = document.createElement('img');
             imgtemp.classList.add("iconoClima");
-            imgtemp.src = "../images/iconos clima/" + icon + ".png";
+            if ((window.location.pathname).indexOf("index.html") != -1) {
+                imgtemp.src = "./images/iconos clima/" + icon + ".png";
+            } else {
+                imgtemp.src = "../images/iconos clima/" + icon + ".png";
+            }
             temperatura.textContent = `${temp} º`;
             clima.appendChild(temperatura);
             clima.appendChild(imgtemp);
@@ -398,7 +403,7 @@ function mostrarproductos(categoria) {
             divProductos.classList.add('card');
             const imgProducto = document.createElement("img");
             imgProducto.classList.add("imgProducto");
-            imgProducto.src = items.img;
+            imgProducto.src = "../images/" + items.img;
             const titulo = document.createElement("h2");
             titulo.classList.add("titulo");
             titulo.textContent = items.Titulo;
@@ -430,22 +435,22 @@ function mostrarproductos(categoria) {
             btnAgregarCarrito.onclick = () => {
                 let stock = parseInt(cantidad1.value);
                 agregarCarrito(items.id, stock);
-                /* swal({
-                     title: "Producto Agregado al Carrito",
+                swal({
+                    title: "Producto Agregado al Carrito",
 
-                     icon: "success",
-                     button: "OK",
-                 });*/
-                const Toast = Swal.mixin({
-                    toast: true,
-                    position: 'bottom-end',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-                Toast.fire({
-                    icon: 'success',
-                    title: 'Se Agrego al Carrito'
-                })
+                    icon: "success",
+                    button: "OK",
+                });
+                /*  const Toast = swal.mixin({
+                      toast: true,
+                      position: 'bottom-end',
+                      showConfirmButton: false,
+                      timer: 1500
+                  })
+                  Toast.fire({
+                      icon: 'success',
+                      title: 'Se Agrego al Carrito'
+                  })*/
                 cantidad1.value = 1;
             };
             divProductos.appendChild(imgProducto);
@@ -559,7 +564,6 @@ function mostrarModal() {
         const nombreCarro = document.createElement("h5");
         const imagenCarro = document.createElement("img");
         imagenCarro.classList.add("imagenCarro");
-        imagenCarro.src = items.img;
         nombreCarro.classList.add("nombreCarro");
         nombreCarro.textContent = `${items.Nombre}    x   ${items.cantidad} un`;
         const precioCarro = document.createElement("h5");
@@ -567,7 +571,14 @@ function mostrarModal() {
         precioCarro.textContent = "$ " + parseInt((items.cantidad).toFixed(2)) * parseFloat((items.Precio).toFixed(2));
         const btnEliminar = document.createElement("img");
         btnEliminar.classList.add("btnEliminar");
-        btnEliminar.src = '../images/basura 1.png';
+        if ((window.location.pathname).indexOf("index.html") != -1) {
+            imagenCarro.src = "./images/" + items.img;
+            btnEliminar.src = "./images/basura 1.png";
+        } else {
+            imagenCarro.src = "../images/" + items.img;
+            btnEliminar.src = "../images/basura 1.png";
+        }
+
         btnEliminar.onclick = () => {
             borrarProductoModal(items.id);
         }
@@ -618,7 +629,7 @@ function borrarCarrito() {
     carrocont = 0;
     total = 0;
     document.getElementById('numero_carrito').innerHTML = carrocont;
-    swal.fire({
+    swal({
         title: "Carrito Vaciado",
 
         icon: "success",
@@ -637,7 +648,6 @@ function borrarProductoModal(id) {;
         btnLimpiarCarro.innerHTML = "";
         totalesProductos.innerHTML = "";
         total = total - (productoEncontrado.Precio) * parseInt(productoEncontrado.cantidad);
-        console.log(total)
         mostrarModal();
         document.getElementById('numero_carrito').innerHTML = carrocont = parseInt(document.getElementById('numero_carrito').innerHTML = carrocont) - parseInt(productoEncontrado.cantidad);
         if (productosCarritos.length === 0) {
@@ -659,13 +669,7 @@ function borrarProductoModal(id) {;
 function finalizarComprar() {
     let numAleatorio = Math.floor(Math.random() * 10000);
     borrarCarrito();
-    /*swal("Gracias por su comprar", "Su Nro de pedido es: " + numAleatorio, "success");*/
-    Swal.fire(
-        'Good job!',
-        'You clicked the button!',
-        'success'
-    )
-
+    swal("Gracias por su comprar", "Su Nro de pedido es: " + numAleatorio, "success");
 
 }
 
